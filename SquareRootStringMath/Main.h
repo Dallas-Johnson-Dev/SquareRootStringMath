@@ -2,6 +2,8 @@
 // Dallas Johnson
 // Defines square root mathematics on strings.
 
+#ifndef __SROOT__
+#define __SROOT__
 #include <iostream>
 #include <cstdlib>
 #include <string>
@@ -16,3 +18,4 @@ bool stringEquality(string A, string B);
 void squareRoot(string value);
 string mult(string a, string b);
 string sum(string a, string b);
+#endif __SROOT__
